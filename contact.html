@@ -26,20 +26,24 @@
 
   <body>
     <!-- Navbar Start -->
+    <!-- Navbar Start -->
     <div class="bg-main">
       <div class="navbar-size py-2 d-none d-lg-flex justify-content-between">
         <div>
           <span class="small-text d-flex gap-2 align-items-center"
             ><i class="fa-solid fa-envelope-open-text"></i
-            ><a href="cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="7b12151d143b190e080f12141518131a090f1e0955181416">[email&#160;protected]</a><i class="fa-solid fa-phone ms-3"></i
-            >+1-800-555-1234</span
-          >
+            >
+            <a href="mailto:ss@gmail.com" style="color: #fff;">info@tempotravellerinbangalore.com</a>
+
+            <!-- <i class="fa-solid fa-phone ms-3"></i
+            >+91 8050171784</span
+          > -->
         </div>
         <div>
-          <span class="small-text d-flex gap-2 align-items-center"
+          <!-- <span class="small-text d-flex gap-2 align-items-center"
             ><i class="fa-regular fa-clock"></i>Open hour : Everyday 8 AM-8
             PM</span
-          >
+          > -->
         </div>
       </div>
     </div>
@@ -49,11 +53,7 @@
           class="container-lg d-flex justify-content-between align-items-center px-0"
         >
           <a class="navbar-brand ms-0 ms-sm-3 ms-lg-0" href="index.html">
-            <img
-              src="img/logo-light.png"
-              alt="Brand Logo"
-              width="175"
-              height="45"
+            <img src="newimg/uib.jpg" alt="Brand Logo" style="height: 100px;width: 100px;"
               class="img-fluid navbar-img"
             />
           </a>
@@ -95,19 +95,24 @@
                   <div class="offcanvas-body d-lg-flex justify-content-center">
                     <ul class="navbar-nav gap-3">
                       <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
+                        <a class="nav-link active" href="index.html">Home</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link" href="about.html">About</a>
                       </li>
-                      <li class="nav-item dropdown">
+
+                      <li class="nav-item">
+                        <a class="nav-link" href="our-bus.html">Our Fleet</a>
+                      </li>
+
+                      <!-- <li class="nav-item dropdown">
                         <button
                           class="nav-link dropdown-toggle d-flex"
                           id="busDropdown"
                           data-bs-toggle="dropdown"
                           aria-expanded="false"
                         >
-                          Our Bus
+                          Our Fleet
                           <span
                             class="d-flex w-100 justify-content-end ms-lg-2"
                           >
@@ -124,19 +129,20 @@
                             <a
                               class="dropdown-item py-2 px-3"
                               href="our-bus.html"
-                              >Our Bus</a
+                              >Our Fleet</a
                             >
                           </li>
                           <li>
                             <a
                               class="dropdown-item py-2 px-3"
                               href="bus-detail.html"
-                              >Bus Detail</a
+                              >Fleet Detail</a
                             >
                           </li>
                         </ul>
-                      </li>
-                      <li class="nav-item dropdown">
+                      </li> -->
+
+                      <!-- <li class="nav-item dropdown">
                         <button
                           class="nav-link dropdown-toggle d-flex"
                           id="servicesDropdown"
@@ -172,8 +178,13 @@
                             >
                           </li>
                         </ul>
+                      </li> -->
+
+                      <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
                       </li>
-                      <li class="nav-item dropdown">
+
+                      <!-- <li class="nav-item dropdown">
                         <button
                           class="nav-link dropdown-toggle d-flex"
                           id="pagesDropdown"
@@ -237,11 +248,9 @@
                             >
                           </li>
                         </ul>
-                      </li>
+                      </li> -->
                       <li class="nav-item">
-                        <a class="nav-link active" href="contact.html"
-                          >Contact</a
-                        >
+                        <a class="nav-link" href="contact.html">Contact</a>
                       </li>
                     </ul>
                   </div>
@@ -249,23 +258,31 @@
               </div>
             </div>
             <div class="d-none d-lg-block">
-              <button class="btn-subtle">Get Your Quote</button>
-            </div>
+  <a href="tel:+918050171784" class="btn btn-subtle">
+    +91 8050171784
+  </a>
+</div>
+
           </div>
         </div>
         <div id="alert-container"></div>
       </div>
     </nav>
     <!-- Navbar End -->
+    <!-- Navbar End -->
     <!-- Banner Start -->
     <div class="bg-banner">
-      <div class="page-size">
+      <div class="page-size right-align">
         <p>
           Home<i class="fa-solid fa-angles-right fa-xs c-main mx-2"></i>Contact
         </p>
         <h1>Contact</h1>
       </div>
     </div>
+    <style>.right-align {
+  text-align: center;
+}
+</style>
     <!-- Banner End -->
     <!-- Contact Start -->
     <div class="bg-white overflow-hidden">
@@ -287,7 +304,7 @@
                     <input
                       type="text"
                       class="bus-detail-input mt-1"
-                      placeholder="Jhon Doe"
+                      placeholder="Ramesh B"
                     />
                   </div>
                   <div class="row row-cols-1 row-cols-sm-2 mt-4">
@@ -296,7 +313,7 @@
                       <input
                         type="number"
                         class="bus-detail-input mt-1"
-                        placeholder="+1 (555) 123-4567"
+                        placeholder="+91 9876543210"
                       />
                     </div>
                     <div class="mt-4 mt-sm-0">
@@ -304,7 +321,7 @@
                       <input
                         type="email"
                         class="bus-detail-input mt-1"
-                        placeholder="john.doe@example.com"
+                        placeholder="ramesh@gmail.com"
                       />
                     </div>
                   </div>
@@ -333,48 +350,64 @@
                 </div>
               </form>
             </div>
-            <div class="col-12 col-lg-4 mt-4 mt-lg-0">
-              <div class="bus-detail-card-dark fade-in-right">
-                <h5 class="c-white">Get In Touch</h5>
-                <p class="c-text-2 mt-4 mb-5">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                  elit tellus, luctus nec ullamcorper mattis,
-                </p>
-                <ul>
-                  <li class="d-flex align-items-center gap-2">
-                    <i class="fa-solid fa-phone c-subtle mb-3"></i>
-                    <p class="c-text-2">+1-800-555-12345</p>
-                  </li>
-                  <li class="d-flex align-items-center gap-2">
-                    <i class="fa-solid fa-envelope-open-text c-subtle mb-3"></i>
-                    <p class="c-text-2"><a href="cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="2841464e47684a5d5b5c4147464b40495a5c4d5a064b4745">[email&#160;protected]</a></p>
-                  </li>
-                  <li class="d-flex align-items-center gap-2">
-                    <i class="fa-solid fa-location-dot c-subtle mb-3"></i>
-                    <p class="c-text-2">456 Citytown, CA 90210 United States</p>
-                  </li>
-                </ul>
-              </div>
-              <div class="border-radius mt-4 fade-in-right">
-                <div class="maps-wrapper">
-                  <div class="maps-overlay"></div>
-                  <iframe
-                    loading="lazy"
-                    class="maps"
-                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d48346.62710714776!2d-73.78270764795138!3d40.76940999818811!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sid!2sid!4v1732409507385!5m2!1sid!2sid"
-                    title="US"
-                    aria-label="US"
-                  ></iframe>
-                </div>
-              </div>
+
+           <div class="col-12 col-lg-4 mt-4 mt-lg-0">
+  <div class="bus-detail-card-dark fade-in-right">
+    <h5 class="c-white">Get In Touch</h5>
+    <p class="c-text-2 mt-4 mb-5">
+      Have questions or need help booking an Urbania? Our customer care team is available 24/7 to assist you with rentals, pricing, and travel plans.
+    </p>
+    <ul>
+      <li class="d-flex align-items-center gap-2">
+        <i class="fa-solid fa-phone c-subtle mb-3"></i>
+        <p class="c-text-2">
+          <a href="tel:+918050171784" class="c-text-2">+91 8050171784</a>
+        </p>
+      </li>
+      <li class="d-flex align-items-center gap-2">
+        <i class="fa-solid fa-envelope-open-text c-subtle mb-3"></i>
+        <p class="c-text-2">
+          <a href="mailto:info@urbaniarentals.com" class="c-text-2">
+
+info@tempotravellerinbangalore.com          </a>
+        </p>
+      </li>
+      <li class="d-flex align-items-center gap-2">
+        <i class="fa-solid fa-location-dot c-subtle mb-3"></i>
+        <p class="c-text-2">
+          #80, 10th B Cross Road, Beside Ganesha Temple,<br />
+          Near Central Mall, Yelahanka, Bangalore – 560064
+        </p>
+      </li>
+    </ul>
+  </div>
+
+  <div class="border-radius mt-4 fade-in-right">
+    <div class="maps-wrapper">
+      <div class="maps-overlay"></div>
+      <iframe
+        loading="lazy"
+        class="maps"
+        src="https://www.google.com/maps?q=Yelahanka,+Bangalore+560064&output=embed"
+        title="Urbania Location"
+        aria-label="Urbania Location"
+      ></iframe>
+    </div>
+  </div>
+</div>
+
+
+
             </div>
           </div>
         </div>
       </div>
     </div>
     <!-- Contact End -->
+
     <!-- Testimonials Start -->
-    <div class="bg-accent overflow-hidden">
+
+    <!-- <div class="bg-accent overflow-hidden">
       <div class="page-size">
         <div class="container-lg px-0">
           <div class="row row-cols-1 row-cols-lg-2 g-5">
@@ -485,10 +518,13 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
+
     <!-- Tesimonials End -->
+
     <!-- FAQs Start -->
-    <div class="bg-white overflow-hidden">
+
+    <!-- <div class="bg-white overflow-hidden">
       <div class="page-size">
         <div class="d-lg-flex justify-content-between align-items-end">
           <div class="col-12 col-lg-6">
@@ -725,18 +761,20 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
+
     <!-- FAQs End -->
+
     <!-- Footer Start -->
-    <div class="bg-heading">
+
+   <div class="bg-heading">
       <div class="page-size">
         <div class="container-lg px-0">
           <div class="row mt-5">
             <div class="col-12 col-lg-5">
-              <img src="img/logo-dark.png" alt="logo" class="footer-logo" />
+              <img src="newimg/uib.jpg" style="height: 100px;" alt="logo" class="footer-logo" />
               <p class="c-text-2 mt-4 me-5">
-                Helping brands shine with tailored digital marketing strategies
-                focused on engagement
+              We understand how important it is to enjoy a smooth and safe journey without overspending.Whether it’s a family trip, corporate travel, or outstation journey, Urbania ensures a reliable and enjoyable ride every time.
               </p>
               <div class="d-flex gap-3 mt-4">
                 <div class="d-flex gap-2 py-2">
@@ -764,11 +802,15 @@
                 <li>
                   <a class="footer-link" href="about.html">About</a>
                 </li>
-                <li>
-                  <a class="footer-link" href="our-bus.html">Our Busses</a>
+                 </li>
+                 <li>
+                  <a class="footer-link" href="services.html">Our Services</a>
                 </li>
-                <li>
-                  <a class="footer-link" href="pricing.html">Pricing</a>
+                  <li>
+                  <a class="footer-link" href="our-bus.html">Our Fleet</a>
+                </li>
+                 <li>
+                  <a class="footer-link" href="contact.html">Contact</a>
                 </li>
               </ul>
             </div>
@@ -776,7 +818,7 @@
               <h5 class="c-white fw-bolder">Navigation</h5>
               <ul class="footer-links">
                 <li>
-                  <a class="footer-link" href="Documentation/index.html"
+                  <a class="footer-link" href="index.html"
                     >Documentation</a
                   >
                 </li>
@@ -814,6 +856,7 @@
         </div>
       </div>
     </div>
+
     <!-- Footer End -->
     <script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="lib/js/bootstrap.bundle.min.js"></script>
     <script src="lib/js/swiper-bundle.min.js"></script>
